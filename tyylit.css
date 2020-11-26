@@ -26,17 +26,6 @@
   color: white;
 }
 
-.jumbotron {
-  background-image: url(https://rekrytointi.com/wp-content/uploads/job-manager-uploads/2019/01/Nayttokuva2019-1-10kello20.36.51-1024x549.png);
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;
-  color: #fff !important;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-  display: none;
-}
-
 .navbar-nav.navbar-center {
   position: relative;
   left: 50%;

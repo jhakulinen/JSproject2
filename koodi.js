@@ -1,4 +1,10 @@
-function omena(){
+//Olemme luoneet jokaiselle elokuvateatterille oman funktion, jotka ovat XML-tiedoston URL-osoitetta lukuunottamatta samanlaisia.//
+//Tämän takia kommentoimme vain ensimmäisen funktion, koska muut toimivat täysin samalla tavalla//
+//Tämän tiedoston lopussa on EventListenerit, joista kaksi on kommentoitu.//
+//Koodi näyttää yksinkertaiselta, mutta yhteensä projektiin kului aikaa noin 30h, koska olemme paskoja :D//
+
+//Luodaan funktio//
+function omena(){ 
 var xmlhttp = new XMLHttpRequest();
 
 xmlhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1039", true);
@@ -43,7 +49,7 @@ if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
 }
   }
 
-document.getElementById("omena").addEventListener("click", omena)
+
 
 
 function itis(){
@@ -90,7 +96,7 @@ function itis(){
 }
     }
 
-    document.getElementById("itis").addEventListener("click", itis)
+    
 
 
     function sello(){
@@ -138,7 +144,7 @@ function itis(){
       }
         }
       
-      document.getElementById("sello").addEventListener("click", sello)
+      
 
       function kinopalatsi(){
         var xmlhttp = new XMLHttpRequest();
@@ -185,7 +191,7 @@ function itis(){
         }
           }
         
-        document.getElementById("kinopalatsi").addEventListener("click", kinopalatsi) 
+         
         
         function tennis(){
           var xmlhttp = new XMLHttpRequest();
@@ -232,7 +238,7 @@ function itis(){
           }
             }
           
-          document.getElementById("tennis").addEventListener("click", tennis)
+          
 
           function maxim(){
             var xmlhttp = new XMLHttpRequest();
@@ -279,7 +285,7 @@ function itis(){
             }
               }
             
-            document.getElementById("maxim").addEventListener("click", maxim)
+            
 
             function flamingo(){
               var xmlhttp = new XMLHttpRequest();
@@ -326,10 +332,17 @@ function itis(){
               }
                 }
               
-              document.getElementById("flamingo").addEventListener("click", flamingo)
+              
 
 function reload(){
   location.reload();
 }
 
 document.getElementById("index").addEventListener("click", reload)
+document.getElementById("omena").addEventListener("click", omena)
+document.getElementById("itis").addEventListener("click", itis)
+document.getElementById("sello").addEventListener("click", sello)
+document.getElementById("kinopalatsi").addEventListener("click", kinopalatsi)
+document.getElementById("tennis").addEventListener("click", tennis)
+document.getElementById("maxim").addEventListener("click", maxim)
+document.getElementById("flamingo").addEventListener("click", flamingo)
