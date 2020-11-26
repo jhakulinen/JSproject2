@@ -349,7 +349,7 @@ function itis(){
 function reload(){
   location.reload();
 }
-//Haetaan button, jonka id on "index"(Etusivu). Lisätään EventListener, joka ajaa funktion "reload", kun "index" nappia painetaan.
+//Haetaan button, jonka id on "index"(Etusivu). Lisätään EventListener, joka ajaa funktion "reload", kun "index" nappia painetaan. Napin painallus päivittää sivun, jolloin minkään teatterin aikataulua ei näytetä.//
 document.getElementById("index").addEventListener("click", reload)
 //Haetaan button, jonka id on "omena". Lisätään EventListener, joka ajaa funktion "omena", kun "omena" nappia painetaan.(Eli ajetaan Espoon Omenan Finnkinon tiedot hakeva ja taulukkoon lisäävä funktio silloin kun sivulla painetaan siihen viittaavaa nappia.)//
 //Sama periaate muidenkin buttoneiden osalta.//
