@@ -1,7 +1,6 @@
 //Olemme luoneet jokaiselle elokuvateatterille oman funktion, jotka ovat XML-tiedoston URL-osoitetta lukuunottamatta samanlaisia.//
 //Tämän takia kommentoimme vain ensimmäisen funktion, koska muut toimivat täysin samalla tavalla//
 //Tämän tiedoston lopussa on EventListenerit, joista kaksi on kommentoitu.//
-//Koodi näyttää yksinkertaiselta, mutta yhteensä projektiin kului aikaa noin 30h, koska olemme paskoja :D//
 
 //Luodaan funktio//
 function omena(){
